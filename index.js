@@ -28,7 +28,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion()
 const kayla = kaylaConnect({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Kayla Bot WhatsApp (2022)','Safari','1.0.0'],
+browser: ['Nai-Bot WhatsApp (2022)','Safari','1.0.0'],
 auth: state,
 version
 })
@@ -221,10 +221,10 @@ N:${await kayla.getName(i + '@s.whatsapp.net')}\n
 FN:${await kayla.getName(i + '@s.whatsapp.net')}\n
 item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
-item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n
+item2.EMAIL;type=INTERNET:rnizar221@gmail.com\n
 item2.X-ABLabel:Email\n
-item3.URL:https://bit.ly/39Ivus6\n
-item3.X-ABLabel:YouTube\n
+item3.URL:https://nizarrrahman.github.io/myprofile/
+item3.X-ABLabel:Website\n
 item4.ADR:;;Indonesia;;;;\n
 item4.X-ABLabel:Region\n
 END:VCARD`
